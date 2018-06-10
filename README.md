@@ -18,5 +18,5 @@ https://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-w
 ##Classes and objects in Python
 https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
 
-##Testing in Python
+##Testing in Python3
 http://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/
