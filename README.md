@@ -20,3 +20,8 @@ https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-obj
 
 ## Testing in Python3
 http://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/
+
+## Algorithms implemented
+* Karatsuba: recursive big numbers multiplication in O(nlog(n)).
+  class: BigNumber 
+  path: /algorithms/big_number.py
