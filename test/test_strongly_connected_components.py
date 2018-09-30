@@ -39,12 +39,12 @@ class TestSCC(unittest.TestCase):
             current_file.close()
 
         for edge in graph.split("\n"):
-            (edge_1, edge_2) = edge.split(" ")
+            (edge_1, edge_2) = edge.rstrip().split(" ")
             big_graph.add_edge(int(edge_1), int(edge_2))
 
         leaders_podium = scc(big_graph)
         for (leader, number_nodes) in leaders_podium:
-            print(leader, number_nodes)
+            print("Leader:", leader, "-> Number of nodes:", number_nodes)
         self.assertTrue(True)
 
 
